@@ -50,7 +50,7 @@ Make sure you have all dependent packages installed correctly and run [demo.py](
 </p>
 ## On UNSEEN cell type
 <p align="center">
-  <img src="/figs/usseen_cell_type.png">
+  <img src="/figs/unseen_cell_type.png">
 </p>
 ## Uncertainty learning framework identifies spatially and temporally rare biological phenomena.
 <p align="center">
