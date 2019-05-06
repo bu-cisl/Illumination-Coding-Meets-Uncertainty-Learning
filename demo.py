@@ -1,6 +1,5 @@
 """
-A quick demo of paper 'illumination coding meets uncertainty learning: toward reliable AI-augmented
- phase imaging'.  (https://arxiv.org/abs/1901.02038)
+A quick demo of paper 'Reliable deep learning-based phase imaging with uncertainty quantification'.  (https://www.osapublishing.org/optica/abstract.cfm?uri=optica-6-5-618)
  Please consider citing our paper if you find the script useful in your own research projects.
 
 Pretrained model is trained on Hela (fixed in ethanol) data along and performs predictions on both seen and unseen

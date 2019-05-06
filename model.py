@@ -1,6 +1,5 @@
 """
-Keras implementation of model in paper 'illumination coding meets uncertainty learning: toward reliable AI-augmented
- phase imaging'.  (https://arxiv.org/abs/1901.02038)
+Keras implementation of model in paper 'Reliable deep learning-based phase imaging with uncertainty quantification'.  (https://www.osapublishing.org/optica/abstract.cfm?uri=optica-6-5-618)
  Please consider citing our paper if you find the script useful in your own research projects.
 
 -Yujia Xue
