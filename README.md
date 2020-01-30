@@ -27,7 +27,7 @@ h5py 2.7.1
 matplotlib 2.1.2
 
 
-### AI-augmented Phase Imaging and Uncertainty Learning Framework
+### Phase prediction and Uncertainty quantification Framework
 <p align="center">
   <img src="/figs/overview.png">
 </p>
