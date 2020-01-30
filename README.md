@@ -1,4 +1,4 @@
-# Illumination-Coding-Meets-Uncertainty-Learning
+# Reliable deep learning-based phase imaging with uncertainty quantification
 Python (Keras) implementation of paper: **Reliable deep learning-based phase imaging with uncertainty quantification**. We provide model, pre-trained weight, test data and a quick demo.
 
 
