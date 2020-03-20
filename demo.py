@@ -43,10 +43,10 @@ formalin_result = np.ndarray((patch_dim, patch_dim, 2, num_examples))
 for i in range(num_examples):
     ethanol_result[:, :, 0, i] = np.mean(ethanol_prediction_ensembles[i, :, :, 0, :].squeeze(), axis=2)
     formalin_result[:, :, 0, i] = np.mean(formalin_prediction_ensembles[i, :, :, 0, :].squeeze(), axis=2)
-    ethanol_result[:, :, 1, i] = np.sqrt((np.mean(ethanol_prediction_ensembles[i, :, :, 1, :].squeeze(), axis=2)) ** 2 +
+    ethanol_result[:, :, 1, i] = np.sqrt((np.mean(ethanol_prediction_ensembles[i, :, :, 1, :].squeeze() ** 2, axis=2)) * 2 +
                                          (np.std(ethanol_prediction_ensembles[i, :, :, 0, :].squeeze(), axis=2)) ** 2)
     formalin_result[:, :, 1, i] = np.sqrt(
-        (np.mean(formalin_prediction_ensembles[i, :, :, 1, :].squeeze(), axis=2)) ** 2 +
+        (np.mean(formalin_prediction_ensembles[i, :, :, 1, :].squeeze() ** 2, axis=2)) * 2 +
         (np.std(formalin_prediction_ensembles[i, :, :, 0, :].squeeze(), axis=2)) ** 2)
 
 plt.figure(figsize=[20, 8])
